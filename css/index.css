@@ -1,0 +1,426 @@
+/* ANIMA REFERENCE CODE */
+
+/* Adjustments were made to help align everything closely to the prototype */
+
+@font-face {
+    font-family: "InputSans-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/InputSans-Bold") format("truetype");
+}
+
+@font-face {
+    font-family: "SegoeUI-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animapp.comSegoeUI-Regular") format("truetype");
+}
+
+@font-face {
+    font-family: "SegoeUI-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animapp.comSegoeUI-Bold") format("truetype");
+}
+
+
+.intro-slide {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 180px;
+    padding: 119px 133px;
+    width: 1920;
+}
+
+.succeed-slide {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    gap: 152px;
+    height: 1080px;
+    min-width: 1920px;
+}
+
+.improve-slide {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    gap: 122px;
+    height: 1080px;
+    min-width: 1920px;
+}
+
+.ready-to-work-slide {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    /* gap: 6px; */
+    height: 1080px;
+    min-width: 1920px;
+    padding: 93px 140px;
+}
+
+.ready-slide {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    gap: 152px;
+    height: 1080px;
+    min-width: 1920px;
+    padding: 123px 140px;
+}
+
+.ready-end {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 1080px;
+    /* padding: 173px 356px; */
+    width: 1420px;
+}
+
+.ready-to-work-slide .flex {
+    display: flex;
+    gap: 18px;
+}
+
+.ready-to-work-slide .group {
+    align-items: flex-start;
+    display: flex;
+}
+
+.ready-to-work-slide .overlap {
+    align-items: flex-end;
+    background-color: rgba(84, 93, 170, 1);
+    border: 1px solid;
+    border-color: #818181;
+    border-radius: 111.5px;
+    display: flex;
+    max-height: 83px;
+    justify-content: flex-end;
+    max-width: 163px;
+    padding: 46px 2px;
+}
+
+.ready-to-provide-upd {
+    color: rgba(94, 100, 213, 1);
+    font-family: "SegoeUI-Regular";
+    font-size: 28px;
+    text-align: left;
+    font-weight: 400;
+    height: 386px;
+    letter-spacing: 0;
+    line-height: 48px;
+    width: 526px;
+}
+
+.click-the-aiva-icon {
+    align-self: flex-end;
+    color: #5e64d5;
+    font-family: var(--font-family-inputsans-bold);
+    font-size: 34px;
+    font-weight: 700;
+    height: 41px;
+    letter-spacing: 0;
+    line-height: 46px;
+    margin-top: 67px;
+    margin-right: 305px;
+    text-align: center;
+    width: 805px;
+}
+
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.microsoft_-teams_ai_logo {
+    max-width: 60%;
+    max-height: 60%;
+    /* height: -11px;
+    width: -8px; */
+}
+
+.ai_va_icon {
+    max-height: 87px;
+    max-width: 85px;
+}
+
+.ai_va_icon2 {
+    max-height: 104px;
+    margin-top: 91px;
+    max-width: 100px;
+    /* url(https://www.behance.net/gallery/166179219/Microsoft-Teamsai); */
+    /* background-image: url(https://www.behance.net/gallery/166179219/Microsoft-Teamsai); */
+}
+
+.flex-col {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 176px;
+    max-height: 145px;
+    max-width: 166px;
+}
+
+.flex-col-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    max-height: 872px;
+    max-width: 770px;
+}
+
+.flex-col-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 3px;
+    max-height: 545px;
+    max-width: 666px;
+}
+
+.flex-row {
+    align-items: flex-end;
+    margin-left: 10px;
+    margin-top: 42px;
+    max-width: 148px;
+}
+
+.group-1 {
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #818181;
+    border-radius: 10px;
+    max-height: 346px;
+    justify-content: flex-end;
+    max-width: 445px;
+    padding: 12px 7px;
+}
+
+.group-2 {
+    align-self: center;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #818181;
+    border-radius: 10px;
+    max-height: 83px;
+    justify-content: flex-end;
+    /* margin-left: 2px; */
+    margin-right: 99px;
+    max-width: 425px;
+    padding: 22px 17px;
+}
+
+.group-3 {
+    margin-top: 158px;
+    min-width: 770px;
+}
+
+.overlap-group {
+    height: 607px;
+    margin-left: 7px;
+    position: relative;
+    width: 618px;
+}
+
+.overlap-group2 {
+    align-items: flex-start;
+    background-color: #545daa;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 1080px;
+    padding: 219px 140px;
+    width: 560px;
+}
+
+.overlap-group3 {
+    align-items: flex-start;
+    background-color: #545daa;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-height: 1080px;
+    padding: 219px 140px;
+    width: 560px;
+}
+
+.overlap-group4 {
+    margin-left: 52px;
+}
+
+.overlap-group5 {
+    margin-left: 49px;
+}
+
+.a-virtual-assistant {
+    color: #ffffff;
+    font-family: "SegoeUI-Regular";
+    font-size: 32px;
+    text-align: left;
+    font-weight: 300;
+    height: 281px;
+    letter-spacing: 0;
+    line-height: 48px;
+    width: 660px;
+}
+
+.lecture-summaries {
+    height: 80px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+    /* padding-top: 110px; */
+    width: 218px;
+}
+
+.project-management {
+    height: 80px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+    width: 218px;
+}
+
+.effective {
+    height: 80px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center;
+    width: 218px;
+}
+
+.with-the-hybrid-meth {
+    color: #ffffff;
+    font-family: "SegoeUI-Regular";
+    font-size: 32px;
+    text-align: left;
+    font-weight: 300;
+    height: 281px;
+    letter-spacing: 0;
+    line-height: 48px;
+    width: 560px;
+}
+
+.title {
+    color: #ffffff;
+    font-family: "SegoeUI-Bold";
+    font-size: 46px;
+    font-weight: 700;
+    text-align: left;
+    height: 101px;
+    letter-spacing: 0;
+    line-height: 88px;
+    margin-top: 2px;
+    width: 660px;
+}
+
+.title1 {
+    color: rgba(94, 100, 213, 1);
+    font-family: "SegoeUI-Bold";
+    font-size: 46px;
+    font-weight: 700;
+    text-align: left;
+    height: 141px;
+    letter-spacing: 0;
+    line-height: 88px;
+    margin-top: 2px;
+    width: 660px;
+}
+
+.title2 {
+    color: rgba(94, 100, 213, 1);
+    font-family: "SegoeUI-Bold";
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    height: 141px;
+    letter-spacing: 0;
+    line-height: 88px;
+    margin-top: 2px;
+    width: 560px;
+}
+
+.x24-7 {
+    max-height: 301px;
+    margin-top: 237px;
+    margin-right: 400px;
+    max-width: 304px;
+}
+
+.success {
+    max-height: 400px;
+    margin-top: 109px;
+    max-width: 306px;
+}
+
+.hello-there-hope {
+    letter-spacing: 0;
+    line-height: 26px;
+    font-size: 10px;
+    max-height: 37px;
+    width: 524px;
+}
+
+.i-am-here-to-help {
+    letter-spacing: 0;
+    line-height: 26px;
+    max-height: 117px;
+    font-size: 10px;
+    width: 624px;
+}
+
+.mask-group-1 {
+    /* display: flex; */
+    max-height: 401px;
+    margin-top: 237px;
+    margin-bottom: 240px;
+    margin-right: 600px;
+    max-width: 404px;
+}
+
+.an-enhanced-system-p {
+    color: #5e64d5;
+    font-family: var(--font-family-inputsans-bold);
+    font-size: var(--font-size-m);
+    height: 141px;
+    text-align: left;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 46px;
+    position: absolute;
+    top: 73px;
+    width: 475px;
+}
+
+.providing-content {
+    color: #5e64d5;
+    font-family: "SegoeUI-Regular";
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+    height: 386px;
+    letter-spacing: 0;
+    line-height: 48px;
+    width: 666px;
+}
+
+.laptop_template{
+    /* margin: 100px 100px 100px 100px; */
+    max-height: 392px;
+    left: 587px;
+    position: absolute;
+    top: 0;
+    max-width: 1080px;
+    /* margin-right: 50px; */
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<!-- CODING REFERENCES -->
+
+<!-- Slider demo
+https://codesandbox.io/p/sandbox/33gfrr?file=%2Findex.html -->
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Thesis marketing website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <!-- FIRST CSS STYLEGUIDE -->
+    <!-- I made two seperate CSS files, as this is what 
+    caused the design to shift more to the right! -->
+
+    <style>
+          html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    :root {
+      --font-size-m: 34px;
+
+      --font-family-inputsans-bold: "InputSans-Bold";
+    }
+    </style>
+    <body>
+        <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+        <!-- SLIDE 1 -->
+        <!-- Introduction slide -->
+        <div class="intro-slide screen">
+          <img class="microsoft_-teams_ai_logo" src="microsoft-teams-ai-logo@1x.png" alt="Microsoft_Teams_AI_logo">
+            <div class="overlap-group">
+                <h1 class="an-enhanced-system-p">An enchanced system platform - digital AI/VA plug-in tool!
+                </h1>
+                <img class="laptop_template" src="laptop-template@1x.png" alt=""Laptop_template> 
+            </div>
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+      <!-- SLIDE 2 -->
+      <!-- Succeed slide -->
+        <div class="succeed-slide screen">
+          <div class="overlap-group2">
+            <h1 class="title">Succeed</h1>
+              <p class="a-virtual-assistant">A virtual assistant that provides guidance 24/7, to make sure you have enough information
+                to meet your success criteria.
+              </p>
+          </div>
+          <img class="x24-7" src="24-7@1x.png" alt="24-7">
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+        <!-- SLIDE 3 -->
+        <!-- Improve slide -->
+        <div class="improve-slide screen">
+          <div class="overlap-group3">
+            <h1 class="title">Improve</h1>
+              <p class="with-the-hybrid-meth">With the hybrid method becoming valuable in providing schedule flexibility, this AI/VA chatbot contributes
+                in maintaining the system.
+              </p>
+          </div>
+          <img class="mask-group-1" src="mask-group-1@1x.png" alt="Mask Group 1">
+        </div>
+      </div>
+      
+      <div class="swiper-slide">
+      <!-- SLIDE 4 -->
+      <!-- Session recap slide -->
+        <div class="ready-to-work-slide screen">
+          <div classs="flex-col flex">
+            <h1 class="title1">Session recap</h1>
+              <p class="ready-to-provide-upd">Ready to provide updates to catch up with lectures,
+                manage project time and guide to navigate your way to success.
+              </p>
+          </div>
+            <div class="flex-col-1">
+              <div class="group-2 group">
+                <p class="hello-there-hope">Hello there! Hope you had a great weekend!</p>
+              </div>
+                <div class="flex-row flex">
+                  <img class="ai_va_icon" src="ai-va-icon@1x.png" alt="AI_VA_icon">
+                    <div class="group-1 group">
+                      <p class="i-am-here-to-help">I am here to help you catch up on anything you
+                        may have possibly missed from not being able to attend your appointed classs. Since
+                        the faculty understands that other commitments or situations can conflict your schedule,
+                        I am programmed to help guide you to success while working with your faculty to make sure
+                        everyone's expectations are met! 
+                      </p>
+                    </div>
+                </div>
+                <div class="group-3 group">
+                  <div class="overlap">
+                    <div class="lecture-summaries">Lecture <br>summaries
+                    </div>
+                  </div>
+                  <div class="overlap-group4 overlap">
+                    <div class="project-management">Project/time <br>management
+                    </div>
+                  </div>
+                  <div class="overlap-group5 overlap">
+                    <div class="effective">Effective <br>navigation
+                      
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+      <!-- SLIDE 5 -->
+      <!-- Ready to work slide -->
+      <div class="ready-slide screen">
+        <div class="flex-col-2">
+          <h1 class="title1">Ready to work</h1>
+            <p class="providing-content">Providing content and exclusive accessibility, students can have the knowledge
+              to proceed in completing projects with scheduling conflict not affecting their goals.
+            </p>
+        </div>
+         <img class="success" src="success@1x.png" alt="Success">
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+      <!-- SLIDE 6 -->
+      <!-- For more information slide -->
+      <div class="ready-end">
+        <h1 class="title2">For more information</h1>
+          <p class="click-the-aiva-icon">Click the AI/VA icon below for a full view of the case study</p>
+          <a href="https://www.behance.net/gallery/166179219/Microsoft-Teamsai"><img class="ai_va_icon2" src="ai-va-icon@1x.png" alt="AI_VA_icon1"></a>
+      </div>
+    </div>
+
+      <!-- <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div> -->
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+    </body>
+</html>
